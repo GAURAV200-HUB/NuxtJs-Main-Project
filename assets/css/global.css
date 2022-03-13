@@ -1,0 +1,73 @@
+/* Fonts Css File */
+@import url(../css/fonts.css);
+
+/* Global Variables */
+:root {
+  /* Colors */
+  --post-bg: #4fb6ff;
+  --halloween-bg: #010405;
+  --halloween-header: #ff9425;
+
+  /* Fonts */
+  --halloween-text: 'Fruktur-Regular', cursive;
+}
+
+/* Global Css Styles */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Postage Stamp Web Design */
+.postage-stamp {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--post-bg);
+}
+
+.postage-stamp .postage-stamp1 {
+  position: relative;
+  width: 380px;
+  height: 320px;
+  background: #fff
+    radial-gradient(var(--post-bg) 0px, var(--post-bg) 7px, transparent 7px);
+  background-size: 20px 20px;
+  background-position: -10px;
+}
+
+.postage-stamp .postage-stamp1::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: url('~/assets/images/postage-stamp/postage-stamp1.jpg');
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 0 10px #fff;
+}
+
+/* Halloween Parallax Effects Web Design */
+.halloween-parallax {
+  background: var(--halloween-bg);
+  color: #fff;
+  font-family: var(--halloween-text);
+}
+
+.halloween-parallax .sec {
+  position: relative;
+  padding: 100px;
+  text-align: center;
+}
+
+.halloween-parallax .sec h1 {
+  font-size: 5em;
+  color: var(--halloween-header);
+  margin-bottom: 20px;
+}
+
+.halloween-parallax .sec p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: consolas;
+}
