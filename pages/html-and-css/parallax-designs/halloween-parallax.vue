@@ -3,27 +3,27 @@
     <section>
       <img
         id="bg"
-        src="../../assets/images/halloween-parallax/bg.jpg"
+        src="../../../assets/images/halloween-parallax/bg.jpg"
         alt="bg"
       />
       <img
         id="bats"
-        src="../../assets/images/halloween-parallax/bats.png"
+        src="../../../assets/images/halloween-parallax/bats.png"
         alt="bats"
       />
       <img
         id="castle"
-        src="../../assets/images/halloween-parallax/castle.png"
+        src="../../../assets/images/halloween-parallax/castle.png"
         alt="castle"
       />
       <img
         id="img"
-        src="../../assets/images/halloween-parallax/img.png"
+        src="../../../assets/images/halloween-parallax/img.png"
         alt="img"
       />
       <img
         id="wolf"
-        src="../../assets/images/halloween-parallax/wolf.png"
+        src="../../../assets/images/halloween-parallax/wolf.png"
         alt="wolf"
       />
     </section>

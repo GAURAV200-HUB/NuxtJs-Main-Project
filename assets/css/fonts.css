@@ -3,3 +3,8 @@
   font-family: Fruktur-Regular;
   src: url(../fonts/Fruktur-Regular.ttf);
 }
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -79,23 +79,8 @@ export default {
           title: 'Web Designs',
           to: '/html-and-css',
         },
-        {
-          icon: 'mdi-calculator',
-          title: 'Calculator Project',
-          to: '/calculator',
-        },
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
       ],
-      miniVariant: false,
+      miniVariant: true,
       right: true,
       rightDrawer: false,
       title: 'GSK',

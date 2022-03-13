@@ -26,10 +26,6 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col cols="12">
-          <h1>Parallax Designs</h1>
-          <a href="../../designs/halloween-parallax/index.html" target="_blank">Go</a>
-        </v-col>
       </v-row>
     </v-container>
   </div>

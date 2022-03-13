@@ -10,6 +10,7 @@
 
   /* Fonts */
   --halloween-text: 'Fruktur-Regular', cursive;
+  --squid-game-text: 'Poppins-Regular', cursive;
 }
 
 /* Global Css Styles */
@@ -70,4 +71,9 @@
   font-size: 1.2em;
   line-height: 1.5em;
   font-family: consolas;
+}
+
+/* Squid Game Landing Page */
+.squid-game-page {
+  font-family: var(--squid-game-text);
 }
